@@ -1,2 +1,2 @@
-# Bone
-Bone site, only frontend
+# Bose
+Bose site, only frontend
