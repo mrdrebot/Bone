@@ -1,0 +1,98 @@
+@media only screen and (max-width: 576px) {
+    /* #region page */
+    body {
+        max-width: 320px;
+    }
+    /* #endregion page */
+
+    /* #region header */
+    .header {
+        height: 500px;
+        margin: 0 auto;
+        padding: 32px 20px;
+        background-image: url(../images/background/header-bg-mob.png);   
+    }
+
+    .header__title {
+        margin-top: 0;
+        font-size: 32px;
+        letter-spacing: -1.5px;
+    }
+    /* #endregion header */
+
+    /* #region menu */
+    .menu {
+        max-width: 320px;
+        padding: 36px 20px;
+    }
+    /* #endregion menu */
+
+    /* #region main */
+    .main {
+        padding: 120px 0;
+    }
+
+    .main__titles {
+        font-size: 32px;
+        letter-spacing: -1.5px;
+    }
+    /* #endregion main */
+
+    /* #region recommended */
+    .recommended {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .recomended__products {
+        flex-direction: column;
+        gap: 48px;
+    }
+    /* #endregion recommended */
+    
+    /* #region categories */
+
+    .categories__title {
+        margin-bottom: 48px;
+    }
+    
+    .category {
+        width: 280px;
+        margin-bottom: 40px;
+    }
+    
+    .category__title {
+        font-size: 16px;
+    }
+
+    .photo-wide {
+        margin-right: 20px;
+    }
+    
+    /* #endregion categories */
+
+    /* #region how to buy */
+    .how-to-buy {
+        width: 280px;
+        flex-direction: column;
+    }
+
+    .how-to-buy__title {
+        margin-right: 0 ;
+        margin-bottom: 32px;
+    }
+
+    .how-to-buy__content {
+        flex-basis: none;
+    
+    }
+
+    /* #endregion how to buy */
+
+    /* #region footer */
+    .footer {
+        height: 200px;
+        background-image:url(../images/background/footer-bg_mob.png);
+    }
+    /* #endregion footer */
+}

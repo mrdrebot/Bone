@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1024px) {
+    /* #region page */
+    body {
+        max-width: 744px;
+    }
+    /* #endregion page */
+
+    /* #region header */
+    .header {
+        height: 800px;
+        margin: 0 auto;
+        padding: 64px 72px;
+        background-image: url(../images/background/header-bg-table.png);   
+    }
+
+    .header__title {
+        font-size: 40px;   
+    }
+    /* #endregion header */
+
+    /* #region menu */
+    .menu {
+        max-width: 744px;
+        padding: 64px 72px;
+    }
+    /* #endregion menu */
+
+    /* #region main */
+    .main {
+        padding: 120px 0;
+    }
+
+    .main__titles {
+        font-size: 40px;
+    }
+    /* #endregion main */
+
+    /* #region recommended */
+    .recommended {
+        margin-left: 176px;
+        margin-right: 176px;
+    }
+
+    .recomended__products {
+        flex-direction: column;
+        gap: 40px;
+    }
+    /* #endregion recommended */
+    
+    /* #region categories */
+
+    .categories__title {
+        margin-bottom: 64px;
+    }
+
+    .category {
+        width: 600px;
+    }
+    /* #endregion categories */
+
+    /* #region how to buy */
+    .how-to-buy {
+        width: 600px;
+    }
+
+    .how-to-buy__title {
+        margin-top: 0 ;
+        margin-right: 24px;
+    }
+    /* #endregion how to buy */
+}
